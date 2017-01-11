@@ -42,7 +42,7 @@ div #SectionTitle
 	background-color: #fc28f1;
 	position:relative;
 	border:10px solid white;
-	//float:left;
+	
 	
 	
 }
@@ -55,14 +55,14 @@ div #SectionTitle
 
 	
 }
-/* Simple Responsive Framework. */
+
 .row {
   width: 100%;
 }
 body{
 	position:relative;
 }
-/********** Medium devices only **********/
+
 @media (min-width: 768px) and (max-width: 991px) {
  .col-md-6, .col-md-12 {
     float: left;
@@ -84,7 +84,7 @@ body{
 @media (min-width: 992px) {
    
  
-  .col-lg-4 {
+  .col-lg {
     width: 33.33%;
 	float: left;
 	
@@ -99,7 +99,7 @@ body{
 
   }
     
-  .col-sd-12 {
+  .col-sd {
     width: 100%;
 	
   }
