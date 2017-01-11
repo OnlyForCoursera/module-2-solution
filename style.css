@@ -94,12 +94,8 @@ body{
 /* small devices */
 @media (max-width: 767px) 
 {
-	 .col-sd-12 {
+	 .col-sd {
     float: left;
-
-  }
-    
-  .col-sd {
     width: 100%;
 	
   }
